@@ -16,3 +16,21 @@ for num in arr {
 print(sum);
 ```
 ---
+
+# [A Very Big Sum](https://www.hackerrank.com/challenges/a-very-big-sum)
+```swift
+import Foundation
+
+// number of elements
+let n = Int(readLine()!)!
+
+// read array and map the elements to integer
+let arr = readLine()!.components(separatedBy: " ").map{ Int($0)! }
+
+var sum = 0
+for num in arr {
+    sum += num
+}
+print(sum)
+```
+---

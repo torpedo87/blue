@@ -8,10 +8,11 @@
 
 import Foundation
 
-class CXPen {
-    private var brand : String
-    private var color : String
-    private var usage : Int
+//customstringconvertible 인터페이스 상속(밑에 var description이랑 쌍) computed property
+class CXPen : CustomStringConvertible {
+    fileprivate var brand : String
+    fileprivate var color : String
+    fileprivate var usage : Int
     
     init(withBrand : String) {
         brand = withBrand
@@ -45,4 +46,63 @@ class CXPen {
     func printDescription(){
         print("brand is \(brand), color is \(color), usage is \(usage)")
     }
+    
+    //pens 배열 내부 구체적으로 보이도록
+    var description: String {
+        return "CXPen description : brand=\(brand)"
+    }
+}
+
+
+class CXMonamiPen : CXPen {
+    fileprivate var model : String
+    
+    init(withModel : String) {
+        // 자신의 변수를 초기화한 이후에 상속 초기화 가능
+        model = withModel
+        super.init(withBrand: "monami")
+    }
+    func getModel() -> String {
+        return model
+    }
+    
+    func setModel(_ name : String) {
+        model = name
+    }
+
+    override func printDescription() {
+        print("model is \(model), brand is \(brand), color is \(color), usage is \(usage)")
+    }
+}
+
+
+class CXSharpPen : CXPen {
+    init() {
+        super.init(withBrand: "sharp")    }
+}
+
+class CXRedPen : CXMonamiPen {
+    init(model: String) {
+        super.init(withModel: model)
+        color = "red"
+    }
+    
+    
+}
+
+class CXBluePen : CXMonamiPen {
+    init(model: String) {
+        super.init(withModel: model)
+        color = "red"
+    }
+    
+}
+
+class CXBlackPen : CXMonamiPen {
+    init(model: String) {
+        super.init(withModel: model)
+        color = "red"
+    }
+    
+    
 }

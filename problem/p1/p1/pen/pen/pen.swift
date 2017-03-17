@@ -93,7 +93,7 @@ class CXRedPen : CXMonamiPen {
 class CXBluePen : CXMonamiPen {
     init(model: String) {
         super.init(withModel: model)
-        color = "red"
+        color = "blue"
     }
     
 }
@@ -101,7 +101,7 @@ class CXBluePen : CXMonamiPen {
 class CXBlackPen : CXMonamiPen {
     init(model: String) {
         super.init(withModel: model)
-        color = "red"
+        color = "black"
     }
     
     

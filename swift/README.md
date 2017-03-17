@@ -272,7 +272,7 @@ print(rect2)
 - 데이터타입은 구조체
 - 구조체 인스턴스를 변수에 할당하면 복사된다, identity가 다르다 별개다
 - 클래스 타입은 값을 참조, 따라서 변경시 조심해야한다
-- 값을 참조로 하고 싶을 때 inout, & 
+- 매개변수를 참조값으로 해서 원본을 변경하고 싶을 때 inout, & 
 
 ## 상속
 - 부모 <- 자식 (자식이 부모의 메소드 호출 가능)
@@ -297,7 +297,28 @@ print(rect2)
 - Designated initializer = 항상 있어야 하는 애 init(), super.init, 상속
 - Convenience initializer = 편의를 위해 만드는 것, self.init
 - 두단계초기화 = 내것부터 초기화한 후 부모 초기화
+---
 
 # 애플의 프레임워크 클래스 사용하기
-## 표준
-## 파운데이션
+## 표준라이브러리(struct)
+- 기능단위 묶음
+- import 안해도 사용가능
+
+
+## 파운데이션(kit, class)
+- import Foundation
+- 코코아 터치 프레임워크 = foundation + uikit
+- 스위프트용과 오브젝티브C용으로 나뉘어있다
+- NS class (class 의 인스턴스들만 다룬다)
+- filemanager, range(4...7 4부터 7까지), cgpoint, cgsize, cgrect(cgpoint, cgsize), strings(NSString=let, NSMutableString=var), serching strings(NSRange- 4,4오브젝티브C 4부터 시작해서 4개), array(mutable, immutable), dictionary(mutable, immutable), 
+- iteration(map), sorting, filtering
+- date and time(dateformatter 으로 기준타입 지정이 중요하다, 서버랑 통신할 때)
+
+# 런타임
+- 실행중에 처리해주는 함수들
+- 실행중에 특정 객체에 메소드가 있는지 동적으로 확인해서 실행시켜준다
+- 찾을 때 hash 키를 만들어서 찾는다 (다이나믹 디스패치)
+- 오브젝티브C 에서는 실행중에 메소드를 몰래 바꿔치기 하기 (게릴라 -> 고릴라 -> monokey patch)
+- 몽키패치로 점검중이라고 서비스 중지하지 않고 보수가 가능해진다
+- method hooking (다른 함수들을 호출될때마다 내 메소드를 거쳐가게끔)
+- swift에서도 perform selector(찾아서 있으면 메소드 실행해주는것) 있지만 찾는 메소드가 없으면 프로그램 죽는다

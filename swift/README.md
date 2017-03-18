@@ -322,3 +322,16 @@ print(rect2)
 - 몽키패치로 점검중이라고 서비스 중지하지 않고 보수가 가능해진다
 - method hooking (다른 함수들을 호출될때마다 내 메소드를 거쳐가게끔)
 - swift에서도 perform selector(찾아서 있으면 메소드 실행해주는것) 있지만 찾는 메소드가 없으면 프로그램 죽는다
+---
+
+# 앱
+- oulet = 화면관련 속성 변경 -> 변수
+- action = 이벤트 -> 메소드
+- class UIViewController
+- class 역할에 따라 분류 = M(추상화된 데이터)-V(뷰)-C(컨트롤러) 패턴
+- window.rootViewController = 화면을 가득 채우는 것, 가장 맨 밑바닥 화면인 윈도우를 조절하는 뷰컨트롤러
+- window - tab bar - navigation bar ..
+
+## 콜백
+- 동기 = 내가 함수 호출해야만 실행
+- 비동기 = 내가 함수 호출 안해도 조건에 따라서 호출된다 (애플 앱 방식)

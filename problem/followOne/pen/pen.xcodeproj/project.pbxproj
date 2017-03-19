@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DBDA3FBC1E7EC04300D88B6F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA3FBB1E7EC04300D88B6F /* main.swift */; };
+		DBDA3FC31E7EC08B00D88B6F /* CXPen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA3FC21E7EC08B00D88B6F /* CXPen.swift */; };
+		DBDA3FC51E7EC2E400D88B6F /* CXMonamiPen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA3FC41E7EC2E400D88B6F /* CXMonamiPen.swift */; };
+		DBDA3FC71E7EC2F500D88B6F /* CXSharpPen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA3FC61E7EC2F500D88B6F /* CXSharpPen.swift */; };
+		DBDA3FC91E7EC30A00D88B6F /* PenHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA3FC81E7EC30A00D88B6F /* PenHolder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		DBDA3FB81E7EC04300D88B6F /* pen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pen; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBDA3FBB1E7EC04300D88B6F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DBDA3FC21E7EC08B00D88B6F /* CXPen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXPen.swift; sourceTree = "<group>"; };
+		DBDA3FC41E7EC2E400D88B6F /* CXMonamiPen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXMonamiPen.swift; sourceTree = "<group>"; };
+		DBDA3FC61E7EC2F500D88B6F /* CXSharpPen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CXSharpPen.swift; sourceTree = "<group>"; };
+		DBDA3FC81E7EC30A00D88B6F /* PenHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenHolder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				DBDA3FBB1E7EC04300D88B6F /* main.swift */,
+				DBDA3FC21E7EC08B00D88B6F /* CXPen.swift */,
+				DBDA3FC41E7EC2E400D88B6F /* CXMonamiPen.swift */,
+				DBDA3FC61E7EC2F500D88B6F /* CXSharpPen.swift */,
+				DBDA3FC81E7EC30A00D88B6F /* PenHolder.swift */,
 			);
 			path = pen;
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDA3FC31E7EC08B00D88B6F /* CXPen.swift in Sources */,
+				DBDA3FC91E7EC30A00D88B6F /* PenHolder.swift in Sources */,
+				DBDA3FC51E7EC2E400D88B6F /* CXMonamiPen.swift in Sources */,
 				DBDA3FBC1E7EC04300D88B6F /* main.swift in Sources */,
+				DBDA3FC71E7EC2F500D88B6F /* CXSharpPen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

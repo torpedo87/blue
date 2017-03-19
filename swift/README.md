@@ -332,6 +332,19 @@ print(rect2)
 - window.rootViewController = 화면을 가득 채우는 것, 가장 맨 밑바닥 화면인 윈도우를 조절하는 뷰컨트롤러
 - window - tab bar - navigation bar ..
 
+## tab bar
+- scene - segue way - scene
+
+## navigation controller
+- 제목줄
+
+## ui event
+- 터치, 모션, 리모컨
+- nsobject - uiresponder(터치) - uiview(그리기)
+- touchbegin , touchmove, touchend, touchcancle
+- touchesForView = 좌표 기준 설정
+
+
 ## 콜백
 - 동기 = 내가 함수 호출해야만 실행
 - 비동기 = 내가 함수 호출 안해도 조건에 따라서 호출된다 (애플 앱 방식)

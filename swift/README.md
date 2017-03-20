@@ -350,4 +350,35 @@ print(rect2)
 - 비동기 = 내가 함수 호출 안해도 조건에 따라서 호출된다 (애플 앱 방식)
 ---
 
-# 
+# MVC
+## view controller
+- 인스턴스 생성
+- main.swift
+
+## app delegate
+- 앱 단위 이벤트
+- 앱 실행에서 종료까지의 life cycle
+
+### 앱 상태 (특정 앱 기준으로 홈버튼에 따라)
+- 실행 직후 = didfinishlaunching
+- 활성화 직후 = didbecomeactive
+- 홈버튼 더블클릭 직후 = willresignactive
+- 뒤에꺼 누른 직후 = didenterbackground(원래 하던 앱은 running or suspend)
+- 바로 복귀 = willenterforeground, didbecomeative
+- 자동으로 꺼진다 = 
+- 수동으로 끈다 = willterminate
+- 꺼진후 복귀 = didfinishlauching, willenterforeground, didbecomeactive
+
+
+# data 저장
+## xml, 아카이브
+### property list
+- 파일 읽고 쓰기
+- NSUserDefault = local storage 같은 건가봐
+- 앱의 상태에 따라 재고를 어디더 둘건지
+
+# MVC 패턴
+- target-action
+- observer = 모델의 값 변할 때를 확인
+- View(재고추가버튼 클릭) -> Controller(func add) -> Model(자판기 code) ->NSNotification center -> Controller(callback 호출) -> View(업데이트)
+

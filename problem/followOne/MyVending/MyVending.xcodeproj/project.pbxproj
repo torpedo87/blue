@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB5713D01E7F694900944E11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5713CF1E7F694900944E11 /* AppDelegate.swift */; };
-		DB5713D21E7F694900944E11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5713D11E7F694900944E11 /* ViewController.swift */; };
-		DB5713D51E7F694900944E11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5713D31E7F694900944E11 /* Main.storyboard */; };
-		DB5713D71E7F694900944E11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB5713D61E7F694900944E11 /* Assets.xcassets */; };
-		DB5713DA1E7F694900944E11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5713D81E7F694900944E11 /* LaunchScreen.storyboard */; };
-		DB5713E31E7F6B3300944E11 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5713E11E7F6B3300944E11 /* Drink.swift */; };
-		DB5713E41E7F6B3300944E11 /* Vendingmachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5713E21E7F6B3300944E11 /* Vendingmachine.swift */; };
+		DB4D8D111E802D43001153BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D8D101E802D43001153BA /* AppDelegate.swift */; };
+		DB4D8D131E802D43001153BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D8D121E802D43001153BA /* ViewController.swift */; };
+		DB4D8D161E802D43001153BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4D8D141E802D43001153BA /* Main.storyboard */; };
+		DB4D8D181E802D43001153BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4D8D171E802D43001153BA /* Assets.xcassets */; };
+		DB4D8D1B1E802D43001153BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB4D8D191E802D43001153BA /* LaunchScreen.storyboard */; };
+		DB4D8D251E802D8B001153BA /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D8D241E802D8B001153BA /* Beverage.swift */; };
+		DB4D8D271E802DA8001153BA /* VendingMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4D8D261E802DA8001153BA /* VendingMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB5713CC1E7F694900944E11 /* Myvending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Myvending.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB5713CF1E7F694900944E11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB5713D11E7F694900944E11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB5713D41E7F694900944E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB5713D61E7F694900944E11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB5713D91E7F694900944E11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB5713DB1E7F694900944E11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB5713E11E7F6B3300944E11 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
-		DB5713E21E7F6B3300944E11 /* Vendingmachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vendingmachine.swift; sourceTree = "<group>"; };
+		DB4D8D0D1E802D43001153BA /* MyVending.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVending.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4D8D101E802D43001153BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB4D8D121E802D43001153BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB4D8D151E802D43001153BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB4D8D171E802D43001153BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4D8D1A1E802D43001153BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB4D8D1C1E802D43001153BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB4D8D241E802D8B001153BA /* Beverage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		DB4D8D261E802DA8001153BA /* VendingMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VendingMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB5713C91E7F694900944E11 /* Frameworks */ = {
+		DB4D8D0A1E802D43001153BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,74 +39,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB5713C31E7F694900944E11 = {
+		DB4D8D041E802D43001153BA = {
 			isa = PBXGroup;
 			children = (
-				DB5713CE1E7F694900944E11 /* Myvending */,
-				DB5713CD1E7F694900944E11 /* Products */,
+				DB4D8D0F1E802D43001153BA /* MyVending */,
+				DB4D8D0E1E802D43001153BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DB5713CD1E7F694900944E11 /* Products */ = {
+		DB4D8D0E1E802D43001153BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB5713CC1E7F694900944E11 /* Myvending.app */,
+				DB4D8D0D1E802D43001153BA /* MyVending.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB5713CE1E7F694900944E11 /* Myvending */ = {
+		DB4D8D0F1E802D43001153BA /* MyVending */ = {
 			isa = PBXGroup;
 			children = (
-				DB5713CF1E7F694900944E11 /* AppDelegate.swift */,
-				DB5713E11E7F6B3300944E11 /* Drink.swift */,
-				DB5713E21E7F6B3300944E11 /* Vendingmachine.swift */,
-				DB5713D11E7F694900944E11 /* ViewController.swift */,
-				DB5713D31E7F694900944E11 /* Main.storyboard */,
-				DB5713D61E7F694900944E11 /* Assets.xcassets */,
-				DB5713D81E7F694900944E11 /* LaunchScreen.storyboard */,
-				DB5713DB1E7F694900944E11 /* Info.plist */,
+				DB4D8D101E802D43001153BA /* AppDelegate.swift */,
+				DB4D8D121E802D43001153BA /* ViewController.swift */,
+				DB4D8D141E802D43001153BA /* Main.storyboard */,
+				DB4D8D171E802D43001153BA /* Assets.xcassets */,
+				DB4D8D191E802D43001153BA /* LaunchScreen.storyboard */,
+				DB4D8D1C1E802D43001153BA /* Info.plist */,
+				DB4D8D241E802D8B001153BA /* Beverage.swift */,
+				DB4D8D261E802DA8001153BA /* VendingMachine.swift */,
 			);
-			path = Myvending;
+			path = MyVending;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB5713CB1E7F694900944E11 /* Myvending */ = {
+		DB4D8D0C1E802D43001153BA /* MyVending */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB5713DE1E7F694900944E11 /* Build configuration list for PBXNativeTarget "Myvending" */;
+			buildConfigurationList = DB4D8D1F1E802D43001153BA /* Build configuration list for PBXNativeTarget "MyVending" */;
 			buildPhases = (
-				DB5713C81E7F694900944E11 /* Sources */,
-				DB5713C91E7F694900944E11 /* Frameworks */,
-				DB5713CA1E7F694900944E11 /* Resources */,
+				DB4D8D091E802D43001153BA /* Sources */,
+				DB4D8D0A1E802D43001153BA /* Frameworks */,
+				DB4D8D0B1E802D43001153BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Myvending;
-			productName = Myvending;
-			productReference = DB5713CC1E7F694900944E11 /* Myvending.app */;
+			name = MyVending;
+			productName = MyVending;
+			productReference = DB4D8D0D1E802D43001153BA /* MyVending.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB5713C41E7F694900944E11 /* Project object */ = {
+		DB4D8D051E802D43001153BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jun woo Park";
 				TargetAttributes = {
-					DB5713CB1E7F694900944E11 = {
+					DB4D8D0C1E802D43001153BA = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DB5713C71E7F694900944E11 /* Build configuration list for PBXProject "Myvending" */;
+			buildConfigurationList = DB4D8D081E802D43001153BA /* Build configuration list for PBXProject "MyVending" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,56 +114,56 @@
 				en,
 				Base,
 			);
-			mainGroup = DB5713C31E7F694900944E11;
-			productRefGroup = DB5713CD1E7F694900944E11 /* Products */;
+			mainGroup = DB4D8D041E802D43001153BA;
+			productRefGroup = DB4D8D0E1E802D43001153BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB5713CB1E7F694900944E11 /* Myvending */,
+				DB4D8D0C1E802D43001153BA /* MyVending */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB5713CA1E7F694900944E11 /* Resources */ = {
+		DB4D8D0B1E802D43001153BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5713DA1E7F694900944E11 /* LaunchScreen.storyboard in Resources */,
-				DB5713D71E7F694900944E11 /* Assets.xcassets in Resources */,
-				DB5713D51E7F694900944E11 /* Main.storyboard in Resources */,
+				DB4D8D1B1E802D43001153BA /* LaunchScreen.storyboard in Resources */,
+				DB4D8D181E802D43001153BA /* Assets.xcassets in Resources */,
+				DB4D8D161E802D43001153BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB5713C81E7F694900944E11 /* Sources */ = {
+		DB4D8D091E802D43001153BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5713D21E7F694900944E11 /* ViewController.swift in Sources */,
-				DB5713E31E7F6B3300944E11 /* Drink.swift in Sources */,
-				DB5713D01E7F694900944E11 /* AppDelegate.swift in Sources */,
-				DB5713E41E7F6B3300944E11 /* Vendingmachine.swift in Sources */,
+				DB4D8D251E802D8B001153BA /* Beverage.swift in Sources */,
+				DB4D8D131E802D43001153BA /* ViewController.swift in Sources */,
+				DB4D8D111E802D43001153BA /* AppDelegate.swift in Sources */,
+				DB4D8D271E802DA8001153BA /* VendingMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB5713D31E7F694900944E11 /* Main.storyboard */ = {
+		DB4D8D141E802D43001153BA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB5713D41E7F694900944E11 /* Base */,
+				DB4D8D151E802D43001153BA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DB5713D81E7F694900944E11 /* LaunchScreen.storyboard */ = {
+		DB4D8D191E802D43001153BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB5713D91E7F694900944E11 /* Base */,
+				DB4D8D1A1E802D43001153BA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB5713DC1E7F694900944E11 /* Debug */ = {
+		DB4D8D1D1E802D43001153BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		DB5713DD1E7F694900944E11 /* Release */ = {
+		DB4D8D1E1E802D43001153BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -262,25 +262,25 @@
 			};
 			name = Release;
 		};
-		DB5713DF1E7F694900944E11 /* Debug */ = {
+		DB4D8D201E802D43001153BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Myvending/Info.plist;
+				INFOPLIST_FILE = MyVending/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.Myvending;
+				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.MyVending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		DB5713E01E7F694900944E11 /* Release */ = {
+		DB4D8D211E802D43001153BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Myvending/Info.plist;
+				INFOPLIST_FILE = MyVending/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.Myvending;
+				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.MyVending;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -289,24 +289,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB5713C71E7F694900944E11 /* Build configuration list for PBXProject "Myvending" */ = {
+		DB4D8D081E802D43001153BA /* Build configuration list for PBXProject "MyVending" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB5713DC1E7F694900944E11 /* Debug */,
-				DB5713DD1E7F694900944E11 /* Release */,
+				DB4D8D1D1E802D43001153BA /* Debug */,
+				DB4D8D1E1E802D43001153BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB5713DE1E7F694900944E11 /* Build configuration list for PBXNativeTarget "Myvending" */ = {
+		DB4D8D1F1E802D43001153BA /* Build configuration list for PBXNativeTarget "MyVending" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB5713DF1E7F694900944E11 /* Debug */,
-				DB5713E01E7F694900944E11 /* Release */,
+				DB4D8D201E802D43001153BA /* Debug */,
+				DB4D8D211E802D43001153BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DB5713C41E7F694900944E11 /* Project object */;
+	rootObject = DB4D8D051E802D43001153BA /* Project object */;
 }

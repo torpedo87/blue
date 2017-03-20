@@ -11,6 +11,7 @@ import Foundation
 class VendingMachine {
     //typealias StringIntDictionary = [String: Int]
     private var drinks: [Drink]
+    var stockDic:[String:Int] = [:]
     
     init(){
         drinks = [Drink]()
@@ -33,7 +34,7 @@ class VendingMachine {
     //get stock number
     func getTotalStockNumber() -> [String:Int] {
         var AllStockNamesArr: Array = getAllStockNames()
-        var stockDic:[String:Int] = [:]
+        //var stockDic:[String:Int] = [:]
         for name in AllStockNamesArr {
             var filteredArr = drinks.filter{ $0.getName() == name }
             stockDic[name] = filteredArr.count
@@ -42,9 +43,9 @@ class VendingMachine {
     }
     
     //input coin: Int,    return [availableName: String]
-    func getAvailablelist(coin: Int) -> [String] {
-        
-    }
+//    func getAvailablelist(coin: Int) -> [String] {
+//        
+//    }
     
     
 }

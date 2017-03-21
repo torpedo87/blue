@@ -354,10 +354,12 @@ print(rect2)
 ## view controller
 - 인스턴스 생성
 - main.swift
+- class의 메소드를 바로 사용 가능
 
 ## app delegate
 - 앱 단위 이벤트
 - 앱 실행에서 종료까지의 life cycle
+- class의 메소드 사용하려면 vc를 통해 가져와야한다
 
 ### 앱 상태 (특정 앱 기준으로 홈버튼에 따라)
 - 실행 직후 = didfinishlaunching
@@ -368,7 +370,7 @@ print(rect2)
 - 자동으로 꺼진다 = 
 - 수동으로 끈다 = willterminate
 - 꺼진후 복귀 = didfinishlauching, willenterforeground, didbecomeactive
-
+---
 
 # data 저장
 ## xml, 아카이브
@@ -381,4 +383,23 @@ print(rect2)
 - target-action
 - observer = 모델의 값 변할 때를 확인
 - View(재고추가버튼 클릭) -> Controller(func add) -> Model(자판기 code) ->NSNotification center -> Controller(callback 호출) -> View(업데이트)
+- model = 데이터
+- view = 화면
+- controller = model 과 view 중개, delegate
+---
+
+# delegate 위임
+- app delegate (경우의 수에 따라 이러이러한 코드를 실행해줘)
+- don't call me, i will call you
+- will(직전)
+- did(직후)
+- should (bool 을 받는다)
+- 앱 만들때, 화면 하나당 + 뷰 컨트롤러 1 + 모델 1 로 관리해야 나중에 보수에 용이
+
+# loose coupling (의존성을 최대한 줄이기)
+- 다른 객체를 변수로 참조하면 의존성이 커지므로 이를 줄이기 위해 notification center 사용
+- key value observing
+- model - (notification) - controller - (notification) - view
+
+
 

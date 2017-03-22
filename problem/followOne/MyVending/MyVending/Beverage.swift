@@ -9,11 +9,11 @@
 import Foundation
 
 //customstringconvertible???
-class Beverage :CustomStringConvertible {
-    private let maker: String
-    private let price: Int
-    private let name: String
-    private let expireDate: Date
+class Beverage : NSObject, NSCoding {
+    fileprivate let maker: String
+    fileprivate let price: Int
+    fileprivate let name: String
+    fileprivate let expireDate: Date
     
     init(maker: String, price: Int, name: String, expireDate: Date) {
         self.maker = maker
@@ -22,7 +22,7 @@ class Beverage :CustomStringConvertible {
         self.expireDate = expireDate
     }
     
-    convenience init() {
+    override convenience init() {
         self.init(maker: "unknown", price: 0, name: "unknown", expireDate: Date(timeInterval: 30000, since: Date()))
     }
     
@@ -34,16 +34,36 @@ class Beverage :CustomStringConvertible {
         return self.price
     }
     
-    var description: String {
+    override var description: String {
         return self.name
     }
+
+    static func == (lhs: Beverage, rhs: Beverage) -> Bool {
+        return (lhs.getName() == rhs.getName()) && (lhs.getPrice() == rhs.getPrice())
+    }
+    
+    //압축할 때 이렇게 해라
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(name, forKey: "name")
+        aCoder.encode(price, forKey: "price")
+        aCoder.encode(maker, forKey: "maker")
+        aCoder.encode(expireDate, forKey: "expireDate")
+    }
+    
+    //압축풀기때 이렇게 해라, nscoding protocol 에서 요구하는 init 함수를 클래스에서 구현할 때 required 붙는다
+    required init?(coder aDecoder: NSCoder) {
+        name = aDecoder.decodeObject(forKey: "name") as! String
+        price = aDecoder.decodeInteger(forKey: "price")
+        maker = aDecoder.decodeObject(forKey: "maker") as! String
+        expireDate = aDecoder.decodeObject(forKey: "expireDate") as! Date
+    }
+
 }
 
 
-
 class CoolBeverage: Beverage {
-    private var caffein: Bool
-    private var acidLevel: Int
+    fileprivate var caffein: Bool
+    fileprivate var acidLevel: Int
     
     init(maker: String, price: Int, name: String, expireDate: Date, caffein: Bool, acidLevel: Int) {
         self.caffein = caffein
@@ -53,12 +73,23 @@ class CoolBeverage: Beverage {
     convenience init() {
         self.init(maker: "unknown", price: 0, name: "unknown", expireDate: Date(timeInterval: 30000, since: Date()), caffein: Bool(), acidLevel: Int())
     }
+    
+    override func encode(with aCoder: NSCoder) {
+        aCoder.encode(caffein, forKey: "caffein")
+        aCoder.encode(acidLevel, forKey: "acidLevel")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        caffein = aDecoder.decodeBool(forKey: "caffein")
+        acidLevel = aDecoder.decodeInteger(forKey: "acidLevel")
+        super.init(coder: aDecoder)
+    }
+
 }
 
 
-
 class HotBeverage: Beverage {
-    private var temperature: Int
+    fileprivate var temperature: Int
     
     init(maker: String, price: Int, name: String, expireDate: Date, temperature: Int) {
         self.temperature = temperature
@@ -68,7 +99,17 @@ class HotBeverage: Beverage {
     convenience init() {
         self.init(maker: "unknown", price: 0, name: "unknown", expireDate: Date(timeInterval: 30000, since: Date()), temperature: Int())
     }
+    
+    override func encode(with aCoder: NSCoder) {
+        aCoder.encode(temperature, forKey: "temperature")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        temperature = aDecoder.decodeInteger(forKey: "temperature")
+        super.init(coder: aDecoder)
+    }
 }
+
 
 
 class Soda: CoolBeverage {
@@ -87,4 +128,14 @@ class Soda: CoolBeverage {
     convenience init(name: String) {
         self.init(maker: "soda inc.", price: 1000, name: name, expireDate: Date(timeInterval: 30000, since: Date()), caffein: true, acidLevel: 100 )
     }
+    
+    override func encode(with aCoder: NSCoder) {
+        aCoder.encode(taste, forKey: "taste")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        taste = aDecoder.decodeObject(forKey: "taste") as! String
+        super.init(coder: aDecoder)
+    }
+
 }

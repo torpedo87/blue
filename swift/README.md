@@ -400,6 +400,22 @@ print(rect2)
 - 다른 객체를 변수로 참조하면 의존성이 커지므로 이를 줄이기 위해 notification center 사용
 - key value observing
 - model - (notification) - controller - (notification) - view
+___
 
+# 클래스 객체 복사
+- 객체 인스턴스는 참조만 가능
+- mutableCopy 메소드로 복사 가능
+- 우리가 만든 인스턴스를 카피하려면 extension으로 nscopying 구현해야 한다
 
+# NSKeyedArchive(깊은 저장하기, 깊은 가져오기)
+- 객체 참조 그래프를 저장해서 깊은 복사 가능
+- object graph = 참조관계 트리
+- NSCoding(encode 저장, decode 풀기) 구현해야 아카이브 가능
+- NSCoding을 위한 클래스는 NSObject에서 상속받아야함
+---
+
+# 좌표시스템
+- 375 x 667
+- bound = 내 원점에서 가로세로 거리
+- frame = 부모 원점에서 내 원점 거리
 

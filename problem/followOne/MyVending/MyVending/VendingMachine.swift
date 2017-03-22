@@ -8,9 +8,11 @@
 
 import Foundation
 
+
+
 class VendingMachine {
     
-    //nsuserdefault 자체가 글로벌 디셔너리니까 굳이 이렇게 따로 딕셔너리 안만들어도 되지 않을까?
+    //자판기 내의 재고배열 딕셔너리
     private var stocks: [String:[Beverage]]
     
     init() {
@@ -31,11 +33,11 @@ class VendingMachine {
             stocks[beverage.getName()] = temp
         }
         
-        //add 호출되면 센터에 알려라??
+        //add 호출되면 센터에 알려라??(view controller가 관심있어하는 메소드)
         NotificationCenter.default.post(name: Notification.Name("added"), object: nil)
     }
     
-    //재고수 파악하기
+    //재고수 사전(이렇게 바꿔줘야 userdefault에 넣을 수 있다)
     func getStockDict() -> [String:Int] {
         var tempDict = [String:Int]()
         for (key, value) in stocks {
@@ -45,8 +47,8 @@ class VendingMachine {
     }
     
     
-    //재고배열로 넣기
-    func setStock(stored: [String:Int]) {
+    //재고수사전 -> 재고배열사전
+    func changeStock(stored: [String:Int]) {
         var temp = [String:[Beverage]]()
         for (key, value) in stored {
             var tempArray = [Beverage]()
@@ -61,5 +63,13 @@ class VendingMachine {
     
     func printStocks() {
         print("stocks", stocks)
+    }
+
+    func getStocks() -> [String:[Beverage]] {
+        return stocks
+    }
+    
+    func setStocks(unarch: [String:[Beverage]]) {
+        stocks = unarch
     }
 }

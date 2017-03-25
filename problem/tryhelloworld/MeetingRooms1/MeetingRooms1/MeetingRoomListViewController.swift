@@ -9,6 +9,8 @@
 import UIKit
 
 class MeetingRoomListViewController: UITableViewController {
+    
+    var meetingRooms: [String:[String:Int]] = ["Meeting":["Banksy":4, "Rivera":8, "Kahlo":8, "Picasso":10], "Seminar":["Cezanne":20, "Matisse":30, "Renoir":40]]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,26 +29,45 @@ class MeetingRoomListViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    //섹션수
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return meetingRooms.count
     }
 
+    //섹션별 줄 수
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        let categoryValues = Array(meetingRooms.values)[section]  //section = 0 or 1
+        return categoryValues.count
     }
 
-    /*
+    //줄 안의 내용
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
+        
+        let categoryValue = Array(meetingRooms.values)[indexPath.section]
 
-        // Configure the cell...
+        let roomName = Array(categoryValue.keys)[indexPath.row]
+        let capacity = Array(categoryValue.values)[indexPath.row]
+
+        cell.textLabel!.text = roomName
+        cell.detailTextLabel!.text = "\(capacity)"
+        
+        
+        
 
         return cell
     }
-    */
-
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+         return Array(meetingRooms.keys)[section]
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+        let rowCount = Array(meetingRooms.values)[section].count
+        return "\(rowCount) rooms"
+    }
     /*
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {

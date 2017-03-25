@@ -17,26 +17,24 @@ class MyView: UIView {
         let endPoint: CGPoint = CGPoint(x: 187.5, y: 667)
         let locations: UnsafePointer<CGFloat>? = nil
         let gradient: CGGradient = CGGradient(colorsSpace: colorsSpace, colors: colors, locations: locations)!
-        
-        
         context?.drawLinearGradient(gradient, start: startPoint, end: endPoint, options: [])
     }
     
     func drawLineFromPoint(start : CGPoint, toPoint end:CGPoint, ofColor lineColor: UIColor, inView view:UIView) {
+        
         //design the path
-        let path = UIBezierPath()
-        path.move(to: start)
-        path.addLine(to: end)
+        var path = UIBezierPath()
+        path.moveToPoint(start)
+        path.addLineToPoint(end)
         
         //design path in layer
-        let shapeLayer = CAShapeLayer()
-        shapeLayer.path = path.cgPath
-        shapeLayer.strokeColor = lineColor.cgColor
+        var shapeLayer = CAShapeLayer()
+        shapeLayer.path = path.CGPath
+        shapeLayer.strokeColor = lineColor.CGColor
         shapeLayer.lineWidth = 1.0
         
         view.layer.addSublayer(shapeLayer)
     }
-    
     
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {

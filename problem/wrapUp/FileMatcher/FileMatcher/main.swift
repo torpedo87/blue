@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+var fileMatcher1 = FileMatcher()
+fileMatcher1.allFiles(path: "/Users/junwoopark/dev/problem")
+//print(fileMatcher1.allFiles(path: "/Users/junwoopark/dev/problem"))
+//print(fileMatcher1.isExist(filename: "followOne", atPath: "/Users/junwoopark/dev/problem"))
+print(fileMatcher1.sortFile(atPath: "/Users/junwoopark/dev/problem/dailyProblem"))

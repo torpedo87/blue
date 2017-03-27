@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //vc사용하려면 이렇게 가져오는 거구나
         let vc = self.window?.rootViewController as! ViewController
         vc.vcBringData()
         print(#function)

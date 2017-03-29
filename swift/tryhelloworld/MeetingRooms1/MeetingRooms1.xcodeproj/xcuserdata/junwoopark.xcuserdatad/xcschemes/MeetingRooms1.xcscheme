@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB1B22CA1E8AAB2A00EF5423"
-               BuildableName = "MeetingRooms.app"
-               BlueprintName = "MeetingRooms"
-               ReferencedContainer = "container:MeetingRooms.xcodeproj">
+               BlueprintIdentifier = "DB1B23301E8BFC0800EF5423"
+               BuildableName = "MeetingRooms1.app"
+               BlueprintName = "MeetingRooms1"
+               ReferencedContainer = "container:MeetingRooms1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB1B22CA1E8AAB2A00EF5423"
-            BuildableName = "MeetingRooms.app"
-            BlueprintName = "MeetingRooms"
-            ReferencedContainer = "container:MeetingRooms.xcodeproj">
+            BlueprintIdentifier = "DB1B23301E8BFC0800EF5423"
+            BuildableName = "MeetingRooms1.app"
+            BlueprintName = "MeetingRooms1"
+            ReferencedContainer = "container:MeetingRooms1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB1B22CA1E8AAB2A00EF5423"
-            BuildableName = "MeetingRooms.app"
-            BlueprintName = "MeetingRooms"
-            ReferencedContainer = "container:MeetingRooms.xcodeproj">
+            BlueprintIdentifier = "DB1B23301E8BFC0800EF5423"
+            BuildableName = "MeetingRooms1.app"
+            BlueprintName = "MeetingRooms1"
+            ReferencedContainer = "container:MeetingRooms1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB1B22CA1E8AAB2A00EF5423"
-            BuildableName = "MeetingRooms.app"
-            BlueprintName = "MeetingRooms"
-            ReferencedContainer = "container:MeetingRooms.xcodeproj">
+            BlueprintIdentifier = "DB1B23301E8BFC0800EF5423"
+            BuildableName = "MeetingRooms1.app"
+            BlueprintName = "MeetingRooms1"
+            ReferencedContainer = "container:MeetingRooms1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

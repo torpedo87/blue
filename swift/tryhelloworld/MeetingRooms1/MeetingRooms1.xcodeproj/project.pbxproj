@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB1B22CF1E8AAB2A00EF5423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B22CE1E8AAB2A00EF5423 /* AppDelegate.swift */; };
-		DB1B22D11E8AAB2A00EF5423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B22D01E8AAB2A00EF5423 /* ViewController.swift */; };
-		DB1B22D41E8AAB2A00EF5423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B22D21E8AAB2A00EF5423 /* Main.storyboard */; };
-		DB1B22D61E8AAB2A00EF5423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1B22D51E8AAB2A00EF5423 /* Assets.xcassets */; };
-		DB1B22D91E8AAB2A00EF5423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B22D71E8AAB2A00EF5423 /* LaunchScreen.storyboard */; };
+		DB1B23351E8BFC0800EF5423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B23341E8BFC0800EF5423 /* AppDelegate.swift */; };
+		DB1B23371E8BFC0800EF5423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B23361E8BFC0800EF5423 /* ViewController.swift */; };
+		DB1B233A1E8BFC0800EF5423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B23381E8BFC0800EF5423 /* Main.storyboard */; };
+		DB1B233C1E8BFC0800EF5423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1B233B1E8BFC0800EF5423 /* Assets.xcassets */; };
+		DB1B233F1E8BFC0800EF5423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B233D1E8BFC0800EF5423 /* LaunchScreen.storyboard */; };
+		DB1B23491E8BFD3500EF5423 /* MeetingRoomListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B23481E8BFD3500EF5423 /* MeetingRoomListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB1B22CB1E8AAB2A00EF5423 /* MeetingRooms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRooms.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB1B22CE1E8AAB2A00EF5423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB1B22D01E8AAB2A00EF5423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB1B22D31E8AAB2A00EF5423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DB1B22D51E8AAB2A00EF5423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DB1B22D81E8AAB2A00EF5423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DB1B22DA1E8AAB2A00EF5423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1B23311E8BFC0800EF5423 /* MeetingRooms1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingRooms1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1B23341E8BFC0800EF5423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB1B23361E8BFC0800EF5423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB1B23391E8BFC0800EF5423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB1B233B1E8BFC0800EF5423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB1B233E1E8BFC0800EF5423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB1B23401E8BFC0800EF5423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1B23481E8BFD3500EF5423 /* MeetingRoomListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeetingRoomListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB1B22C81E8AAB2A00EF5423 /* Frameworks */ = {
+		DB1B232E1E8BFC0800EF5423 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +37,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB1B22C21E8AAB2A00EF5423 = {
+		DB1B23281E8BFC0800EF5423 = {
 			isa = PBXGroup;
 			children = (
-				DB1B22CD1E8AAB2A00EF5423 /* MeetingRooms */,
-				DB1B22CC1E8AAB2A00EF5423 /* Products */,
+				DB1B23331E8BFC0800EF5423 /* MeetingRooms1 */,
+				DB1B23321E8BFC0800EF5423 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DB1B22CC1E8AAB2A00EF5423 /* Products */ = {
+		DB1B23321E8BFC0800EF5423 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB1B22CB1E8AAB2A00EF5423 /* MeetingRooms.app */,
+				DB1B23311E8BFC0800EF5423 /* MeetingRooms1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB1B22CD1E8AAB2A00EF5423 /* MeetingRooms */ = {
+		DB1B23331E8BFC0800EF5423 /* MeetingRooms1 */ = {
 			isa = PBXGroup;
 			children = (
-				DB1B22CE1E8AAB2A00EF5423 /* AppDelegate.swift */,
-				DB1B22D01E8AAB2A00EF5423 /* ViewController.swift */,
-				DB1B22D21E8AAB2A00EF5423 /* Main.storyboard */,
-				DB1B22D51E8AAB2A00EF5423 /* Assets.xcassets */,
-				DB1B22D71E8AAB2A00EF5423 /* LaunchScreen.storyboard */,
-				DB1B22DA1E8AAB2A00EF5423 /* Info.plist */,
+				DB1B23341E8BFC0800EF5423 /* AppDelegate.swift */,
+				DB1B23361E8BFC0800EF5423 /* ViewController.swift */,
+				DB1B23381E8BFC0800EF5423 /* Main.storyboard */,
+				DB1B233B1E8BFC0800EF5423 /* Assets.xcassets */,
+				DB1B233D1E8BFC0800EF5423 /* LaunchScreen.storyboard */,
+				DB1B23401E8BFC0800EF5423 /* Info.plist */,
+				DB1B23481E8BFD3500EF5423 /* MeetingRoomListTableViewController.swift */,
 			);
-			path = MeetingRooms;
+			path = MeetingRooms1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB1B22CA1E8AAB2A00EF5423 /* MeetingRooms */ = {
+		DB1B23301E8BFC0800EF5423 /* MeetingRooms1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB1B22DD1E8AAB2A00EF5423 /* Build configuration list for PBXNativeTarget "MeetingRooms" */;
+			buildConfigurationList = DB1B23431E8BFC0800EF5423 /* Build configuration list for PBXNativeTarget "MeetingRooms1" */;
 			buildPhases = (
-				DB1B22C71E8AAB2A00EF5423 /* Sources */,
-				DB1B22C81E8AAB2A00EF5423 /* Frameworks */,
-				DB1B22C91E8AAB2A00EF5423 /* Resources */,
+				DB1B232D1E8BFC0800EF5423 /* Sources */,
+				DB1B232E1E8BFC0800EF5423 /* Frameworks */,
+				DB1B232F1E8BFC0800EF5423 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MeetingRooms;
-			productName = MeetingRooms;
-			productReference = DB1B22CB1E8AAB2A00EF5423 /* MeetingRooms.app */;
+			name = MeetingRooms1;
+			productName = MeetingRooms1;
+			productReference = DB1B23311E8BFC0800EF5423 /* MeetingRooms1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB1B22C31E8AAB2A00EF5423 /* Project object */ = {
+		DB1B23291E8BFC0800EF5423 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jun woo Park";
 				TargetAttributes = {
-					DB1B22CA1E8AAB2A00EF5423 = {
+					DB1B23301E8BFC0800EF5423 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TM6U8P8E5J;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = DB1B22C61E8AAB2A00EF5423 /* Build configuration list for PBXProject "MeetingRooms" */;
+			buildConfigurationList = DB1B232C1E8BFC0800EF5423 /* Build configuration list for PBXProject "MeetingRooms1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +112,55 @@
 				en,
 				Base,
 			);
-			mainGroup = DB1B22C21E8AAB2A00EF5423;
-			productRefGroup = DB1B22CC1E8AAB2A00EF5423 /* Products */;
+			mainGroup = DB1B23281E8BFC0800EF5423;
+			productRefGroup = DB1B23321E8BFC0800EF5423 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB1B22CA1E8AAB2A00EF5423 /* MeetingRooms */,
+				DB1B23301E8BFC0800EF5423 /* MeetingRooms1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB1B22C91E8AAB2A00EF5423 /* Resources */ = {
+		DB1B232F1E8BFC0800EF5423 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1B22D91E8AAB2A00EF5423 /* LaunchScreen.storyboard in Resources */,
-				DB1B22D61E8AAB2A00EF5423 /* Assets.xcassets in Resources */,
-				DB1B22D41E8AAB2A00EF5423 /* Main.storyboard in Resources */,
+				DB1B233F1E8BFC0800EF5423 /* LaunchScreen.storyboard in Resources */,
+				DB1B233C1E8BFC0800EF5423 /* Assets.xcassets in Resources */,
+				DB1B233A1E8BFC0800EF5423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB1B22C71E8AAB2A00EF5423 /* Sources */ = {
+		DB1B232D1E8BFC0800EF5423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB1B22D11E8AAB2A00EF5423 /* ViewController.swift in Sources */,
-				DB1B22CF1E8AAB2A00EF5423 /* AppDelegate.swift in Sources */,
+				DB1B23371E8BFC0800EF5423 /* ViewController.swift in Sources */,
+				DB1B23491E8BFD3500EF5423 /* MeetingRoomListTableViewController.swift in Sources */,
+				DB1B23351E8BFC0800EF5423 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB1B22D21E8AAB2A00EF5423 /* Main.storyboard */ = {
+		DB1B23381E8BFC0800EF5423 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB1B22D31E8AAB2A00EF5423 /* Base */,
+				DB1B23391E8BFC0800EF5423 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		DB1B22D71E8AAB2A00EF5423 /* LaunchScreen.storyboard */ = {
+		DB1B233D1E8BFC0800EF5423 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB1B22D81E8AAB2A00EF5423 /* Base */,
+				DB1B233E1E8BFC0800EF5423 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +168,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB1B22DB1E8AAB2A00EF5423 /* Debug */ = {
+		DB1B23411E8BFC0800EF5423 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		DB1B22DC1E8AAB2A00EF5423 /* Release */ = {
+		DB1B23421E8BFC0800EF5423 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,25 +259,29 @@
 			};
 			name = Release;
 		};
-		DB1B22DE1E8AAB2A00EF5423 /* Debug */ = {
+		DB1B23441E8BFC0800EF5423 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MeetingRooms/Info.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TM6U8P8E5J;
+				INFOPLIST_FILE = MeetingRooms1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.MeetingRooms;
+				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.MeetingRooms1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		DB1B22DF1E8AAB2A00EF5423 /* Release */ = {
+		DB1B23451E8BFC0800EF5423 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MeetingRooms/Info.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TM6U8P8E5J;
+				INFOPLIST_FILE = MeetingRooms1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.MeetingRooms;
+				PRODUCT_BUNDLE_IDENTIFIER = codesquad.kr.MeetingRooms1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -281,24 +290,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB1B22C61E8AAB2A00EF5423 /* Build configuration list for PBXProject "MeetingRooms" */ = {
+		DB1B232C1E8BFC0800EF5423 /* Build configuration list for PBXProject "MeetingRooms1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB1B22DB1E8AAB2A00EF5423 /* Debug */,
-				DB1B22DC1E8AAB2A00EF5423 /* Release */,
+				DB1B23411E8BFC0800EF5423 /* Debug */,
+				DB1B23421E8BFC0800EF5423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB1B22DD1E8AAB2A00EF5423 /* Build configuration list for PBXNativeTarget "MeetingRooms" */ = {
+		DB1B23431E8BFC0800EF5423 /* Build configuration list for PBXNativeTarget "MeetingRooms1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB1B22DE1E8AAB2A00EF5423 /* Debug */,
-				DB1B22DF1E8AAB2A00EF5423 /* Release */,
+				DB1B23441E8BFC0800EF5423 /* Debug */,
+				DB1B23451E8BFC0800EF5423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DB1B22C31E8AAB2A00EF5423 /* Project object */;
+	rootObject = DB1B23291E8BFC0800EF5423 /* Project object */;
 }

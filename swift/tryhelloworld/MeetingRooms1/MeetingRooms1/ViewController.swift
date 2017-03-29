@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  MeetingRooms
+//  MeetingRooms1
 //
-//  Created by Jun woo Park on 2017. 3. 28..
+//  Created by Jun woo Park on 2017. 3. 29..
 //  Copyright © 2017년 Jun woo Park. All rights reserved.
 //
 

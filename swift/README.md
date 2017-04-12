@@ -440,6 +440,7 @@ ___
 
 # 메모리 부족할 경우(사용하지 않는 참조변수 화살표개수 관리)
 - 참조 화살표 끊기(참조변수 = nil)
+
 ## 수동관리
 - memorywarning 함수
 - 백그라운드의 앱들을 죽이기
@@ -488,3 +489,12 @@ ___
 - 일반적으로 비동기 사용한다
 - producer, consumer 는 sync로 해야...(read, write 관계. 순서가 달라지면 결과값이 달라지므로)
 - opreationqueue = 큐 단위로 취소 가능
+---
+
+# collectionview
+- 레이아웃 = 셀크기, 간격
+- flow layout = 순서대로 채워진다
+- datasource - 셀생성
+- delegate = 다중선택(테두리)
+- 2차원 배열 = 섹션과 아이템
+- customlayout = 3가지 메소드 요구(preparelayout ...)

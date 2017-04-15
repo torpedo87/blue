@@ -97,7 +97,6 @@ class MyCalender {
         if getWeekday(year: year, month: month, day: lastDay) != "일요일" {
             monthArr.append(weekArr)
         }
-        
         return monthArr
     }
     

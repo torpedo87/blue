@@ -13,6 +13,7 @@
 		DBD3C7311E9CD3960026E597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD3C7301E9CD3960026E597 /* Assets.xcassets */; };
 		DBD3C7341E9CD3960026E597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD3C7321E9CD3960026E597 /* LaunchScreen.storyboard */; };
 		DBD3C73F1E9CDB7B0026E597 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3C73E1E9CDB7B0026E597 /* VideoVC.swift */; };
+		DBD3C7411E9E358F0026E597 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD3C7401E9E358F0026E597 /* PartyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBD3C7331E9CD3960026E597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD3C7351E9CD3960026E597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBD3C73E1E9CDB7B0026E597 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		DBD3C7401E9E358F0026E597 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		DBD3C73D1E9CD43E0026E597 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DBD3C7401E9E358F0026E597 /* PartyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				DBD3C73F1E9CDB7B0026E597 /* VideoVC.swift in Sources */,
 				DBD3C72C1E9CD3960026E597 /* MainVC.swift in Sources */,
+				DBD3C7411E9E358F0026E597 /* PartyCell.swift in Sources */,
 				DBD3C72A1E9CD3960026E597 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +336,7 @@
 				DBD3C73A1E9CD3960026E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

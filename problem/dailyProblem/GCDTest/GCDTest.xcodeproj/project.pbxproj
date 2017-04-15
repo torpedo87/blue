@@ -12,6 +12,7 @@
 		DB1B23A81E8E034A00EF5423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B23A61E8E034A00EF5423 /* Main.storyboard */; };
 		DB1B23AA1E8E034A00EF5423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB1B23A91E8E034A00EF5423 /* Assets.xcassets */; };
 		DB1B23AD1E8E034A00EF5423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB1B23AB1E8E034A00EF5423 /* LaunchScreen.storyboard */; };
+		DB1B23B51E8E03F300EF5423 /* bookfile.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB1B23B41E8E03F300EF5423 /* bookfile.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DB1B23A91E8E034A00EF5423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB1B23AC1E8E034A00EF5423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB1B23AE1E8E034A00EF5423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB1B23B41E8E03F300EF5423 /* bookfile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bookfile.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DB1B23A21E8E034A00EF5423 /* AppDelegate.swift */,
 				DB1B23A41E8E034A00EF5423 /* ViewController.swift */,
+				DB1B23B41E8E03F300EF5423 /* bookfile.txt */,
 				DB1B23A61E8E034A00EF5423 /* Main.storyboard */,
 				DB1B23A91E8E034A00EF5423 /* Assets.xcassets */,
 				DB1B23AB1E8E034A00EF5423 /* LaunchScreen.storyboard */,
@@ -124,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB1B23AD1E8E034A00EF5423 /* LaunchScreen.storyboard in Resources */,
+				DB1B23B51E8E03F300EF5423 /* bookfile.txt in Resources */,
 				DB1B23AA1E8E034A00EF5423 /* Assets.xcassets in Resources */,
 				DB1B23A81E8E034A00EF5423 /* Main.storyboard in Resources */,
 			);
